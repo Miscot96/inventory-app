@@ -1,33 +1,59 @@
-# Inventory / Production Tracking App
+# Inventory & Production Tracking App
 
-Desktop application for managing materials, production orders, branch information, user roles, and exports for internal company use.
+Desktop application for managing materials and production orders in a small production environment.
+
+---
 
 ## Features
-- User login with roles
-- Main admin and admin permissions
-- Branch management
-- Material reference and color management
-- Production order creation and editing
-- Material usage tracking
-- Excel export for materials and orders
-- Search, sorting, and summaries
+
+* User login with roles (User / Admin / Main Admin)
+* Branch management with descriptions
+* Material tracking (reference + color variants)
+* Automatic calculation of needed and missing quantities
+* Production order creation and editing
+* Excel export (materials & orders)
+* Search, sorting, and clean UI
+
+---
 
 ## Tech Stack
-- Python
-- Tkinter
-- SQLite
-- OpenPyXL
+
+* Python
+* Tkinter
+* SQLite
+* OpenPyXL
+
+---
+
+## Setup
+
+```bash
+git clone https://github.com/yourusername/inventory-app.git
+cd inventory-app
+pip install -r requirements.txt
+python main.py
+```
+
+---
 
 ## Purpose
-This project was built to practice real-world desktop application development and to solve a practical inventory / production tracking workflow.
 
-## What I Learned
-- GUI development with Tkinter
-- Working with SQLite and relational data
-- User roles and permissions
-- CRUD operations
-- Exporting data to Excel
-- Improving software based on real workflow needs
+Built as a practical project to simulate real-world inventory and production workflows.
+
+---
+
+## Key Learnings
+
+* GUI development with Tkinter
+* Working with relational data (SQLite)
+* User roles and permissions
+* Real-world logic (inventory & production tracking)
+
+---
 
 ## Notes
-This project is designed as a local/internal desktop tool and was developed as a portfolio and learning project.
+
+* Local desktop app (not web-based)
+* Intended for internal/company use
+
+---
