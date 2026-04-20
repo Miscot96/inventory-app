@@ -28,7 +28,7 @@ Desktop application for managing materials and production orders in a small prod
 ## Setup
 
 ```bash
-git clone https://github.com/yourusername/inventory-app.git
+git clone https://github.com/Miscot96/inventory-app.git
 cd inventory-app
 pip install -r requirements.txt
 python main.py
